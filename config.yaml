@@ -1,0 +1,49 @@
+title: We Play
+theme: we-play
+defaultContentLanguage: de
+languageCode: de-de
+baseURL: https://we-play-ch.github.io/we-play-website/
+canonifyURLs: true
+pluralizeListTitles: false
+
+disableKinds:
+  - "taxonomy"
+  - "term"
+  - "RSS"
+  - "section"
+
+outputs:
+  home:
+    - HTML
+    - AMP
+  page:
+    - HTML
+    - AMP
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+enableGitInfo: true
+
+sitemap:
+  changefreq: monthly
+  filename: sitemap.xml
+  priority: 0.5
+
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    disable: true
+  instagram:
+    simple: true
+  twitter:
+    enableDNT: true
+    simple: true
+  vimeo:
+    enableDNT: true
+    simple: false
+  youtube:
+    privacyEnhanced: true

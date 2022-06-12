@@ -1,0 +1,11 @@
+@import 'global-variables';
+
+figure {
+  img {
+    display: block;
+    height: auto;
+    max-height: calc(75vh - #{$top-nav-height});
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
