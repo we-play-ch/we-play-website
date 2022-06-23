@@ -11,6 +11,11 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '16.x'
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.83.1'
+          extended: true
       - name: Update dependencies
         id: vars
         run: |
