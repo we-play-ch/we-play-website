@@ -1,5 +1,5 @@
 # Website: We-Play
-[![Build State](https://github.com/we-play-ch/we-play-website/workflows/CI/badge.svg)](https://github.com/we-play-ch/we-play-website/actions)
+[![Build State](https://github.com/we-play-ch/we-play-website/actions/workflows/build.yml/badge.svg)](https://github.com/we-play-ch/we-play-website/actions/workflows/build.yml)
 
 ## Prerequisites
 [Install the extended / SCSS version of Hugo](https://gohugo.io/getting-started/installing/).
@@ -13,10 +13,4 @@ hugo serve
 ```
 
 ## Deploy
-Deployment happens automatically on tag on master.
-Be sure to have the `private.php` in the `files` directory:
-```php
-<?php
-$RECAPTCHA_SECRET_KEY = "";
-
-```
+Deployment happens automatically on tag on main.
