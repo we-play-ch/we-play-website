@@ -27,6 +27,14 @@ markup:
 
 enableGitInfo: true
 
+menu:
+  main:
+    - identifier: aktivitaeten
+      name: Aktivitäten
+      title: Aktivitäten
+      weight: 100
+      url: #
+
 sitemap:
   changefreq: monthly
   filename: sitemap.xml
