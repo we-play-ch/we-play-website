@@ -1,0 +1,43 @@
+@import 'themes/we-play/assets/scss/global-variables';
+@import 'themes/we-play/assets/scss/mixins/breakpoint';
+
+.game-night {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+
+  .text {
+    width: 54%;
+  }
+
+  .images {
+    width: 44%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .col-left {
+      width: calc(43% - 1px);
+    }
+
+    .col-right {
+      width: calc(57% - 1px);
+    }
+
+    img {
+      padding: 1px;
+    }
+  }
+}
+
+@include breakpoint(0, $mobile-max-width) {
+  .game-night {
+    flex-direction: column;
+
+    .text,
+    .images {
+      width: 100%;
+    }
+  }
+}
