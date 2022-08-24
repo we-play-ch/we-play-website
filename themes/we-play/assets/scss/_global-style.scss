@@ -193,12 +193,16 @@ ol {
 .footer {
   a {
     &:not(.unstyled) {
-      color: $highlight-color;
+      color: lighten($secondary-highlight-color, 15%);
       text-decoration: none;
+
+      &:visited {
+        color: $secondary-highlight-color;
+      }
 
       &:hover,
       &:focus {
-        border-bottom: 1px solid $highlight-color;
+        border-bottom: 1px solid $secondary-highlight-color;
         color: $text-color;
         text-decoration: none;
       }
