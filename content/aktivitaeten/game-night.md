@@ -19,7 +19,7 @@ Wir freuen uns, herzlich willkommen!
 ## Unsere Spielregeln
 
 - Kommt so oft, wie ihr Spass habt, sagt uns aber bis spätestens Montagabend der jeweiligen Woche definitiv
-  zu. [Tragt euch dazu bitte hier ein](https://nuudel.digitalcourage.de/xEujRaujYWiMkjQO).
+  zu.
 - Damit wir möglichst viel Freude am gemeinsamen Spielen haben, spielen wir an der Game Night nur Spiele, welche von
   einem Spielleiter / einer Spielleiterin erklärt und geleitet werden.
 - Alle Teilnehmer sind herzlich eingeladen, Spiele vorzuschlagen/mitzubringen und diese zu leiten. Dazu tauschen wir uns
